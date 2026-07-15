@@ -1,4 +1,3 @@
-
 fastapi
 uvicorn
 langchain
@@ -6,3 +5,4 @@ langchain-google-genai
 chromadb
 pypdf
 python-dotenv
+
