@@ -1,4 +1,6 @@
-fastapi
-uvicorn[standard]
-python-dotenv
+
+langchain-google-genai
+langchain
 google-generativeai
+fastapi
+uvicorn
