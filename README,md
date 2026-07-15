@@ -1,0 +1,43 @@
+# Company GPT
+
+RAG-based document Q&A chatbot built with React, FastAPI, LangChain, ChromaDB, and Google Gemini.
+
+## Features
+- Upload PDF documents (company policies, handbooks)
+- Ask questions and get answers based on document content
+- Chat history in the UI
+
+## Tech Stack
+- **Frontend:** React, TypeScript, Vite
+- **Backend:** FastAPI, LangChain, ChromaDB, HuggingFace Embeddings
+- **LLM:** Google Gemini
+
+## Setup
+
+### Backend
+\`\`\`bash
+cd backend
+python -m venv venv
+venv\Scripts\activate
+pip install -r requirements.txt
+\`\`\`
+Create a `.env` file in `backend/`:
+\`\`\`
+GOOGLE_API_KEY=your_key_here
+\`\`\`
+Run:
+\`\`\`bash
+python main.py
+\`\`\`
+
+### Frontend
+\`\`\`bash
+cd frontend
+npm install
+npm run dev
+\`\`\`
+
+## Usage
+1. Start the backend (port 8000)
+2. Start the frontend (port 5173+)
+3. Upload a PDF and ask questions about it
